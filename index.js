@@ -69,7 +69,6 @@ function tinhToan() {
       : "Số dương bằng số âm";
   document.getElementById("soSanhDuongAm").textContent = ketQuaSoSanh;
 }
-// Hàm kiểm tra số nguyên tố
 function isPrime(num) {
   if (num <= 1) return false;
   if (num <= 3) return true;
